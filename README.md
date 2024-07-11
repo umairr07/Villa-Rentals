@@ -1,8 +1,27 @@
-# React + Vite
+# Real Estate Application(Villa Rentals)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+This project is a React-based web application for browsing real estate listings, applying filters, adding properties to favorites, and displaying results based on user preferences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Filtering Options:**
+
+  - Four levels of filtering: location, price range, number of bedrooms, and property type.
+  - Results display properties that meet all applied filters.
+
+- **Favorites Page:**
+
+  - Users can add specific properties to a favorites page.
+  - Design the Favorites page to complement the theme of the application.
+
+- **React Implementation:**
+
+  - Built entirely in React.js, leveraging its component-based architecture for UI elements.
+
+## Technologies Used
+
+- **Frontend:** React.js
+- **State Management:** React Hooks (useState, useEffect, useContext)
+- **Styling:** Tailwind CSS & React Icons
